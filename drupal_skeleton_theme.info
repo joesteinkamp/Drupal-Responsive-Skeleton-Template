@@ -1,0 +1,25 @@
+name = Drupal Skeleton Theme
+description = This is a responsive theme for Drupal using the Skeleton boilerplate.
+core = 7.x
+engine = phptemplate
+
+regions[headliner_slider] = Headliner Slider
+regions[headliner_blurb] = Headliner Blurb
+regions[sidebar_first] = Right sidebar
+regions[content] = Content
+
+regions[footer] = Footer
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column
+
+features[] = name
+features[] = slogan
+
+stylesheets[all][] = stylesheets/base.css
+stylesheets[all][] = stylesheets/layout.css
+stylesheets[all][] = stylesheets/skeleton.css
+
+scripts[] = javascript/tabs.js
+scripts[] = http://code.jquery.com/jquery-1.6.4.min.js
